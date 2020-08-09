@@ -1,7 +1,8 @@
-// Given a array of inegers, return the indices of he two numbers that add up to a target value. // For example, if the array is [0, 2, 5] and the target is 7, then return [1,2].
+// Given a array of inegers, return the indices of the two numbers that add up to a target value. // For example, if the array is [0, 2, 5] and the target is 7, then return [1,2].
 
 // solution: use a double for loop
 // time complexity: O(n^2)
+// The time complexity for index i is O(n). Finding the complement of i takes O(n^2)
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
