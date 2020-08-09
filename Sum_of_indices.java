@@ -1,4 +1,5 @@
-// Given a array of integers, return the indices of the two numbers that add up to a target value. // For example, if the array is [0, 2, 5] and the target is 7, then return [1,2].
+// Given a array of integers, return the indices of the two numbers that add up to a target value. // For example, if the array is [0, 2, 5] and the target is 7, 
+// then return [1,2].
 
 // solution: use a double for loop
 // time complexity: O(n^2)
