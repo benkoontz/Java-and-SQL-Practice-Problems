@@ -41,6 +41,8 @@ class Solution {
             x = m + 1;
         } else {
             // used for this case [2,5,6], 1, returns 0;
+            // the first time around, y will get set to 1, the second time around it will get set to 0 because 0 + (1 + 0)/ 2 = 0
+            // then it returns - because  x = 0 and x is not less than 0.
             y = m;
         }
     }
