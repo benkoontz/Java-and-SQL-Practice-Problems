@@ -1,5 +1,5 @@
 // Check if an integer is a palindrome. A palindrom reads the same way forwards and backwards.
-// Time complexity: The time complexity is O(log10(n)) since we divide the input by 10 for   // each iteration
+// Time complexity: The time complexity is O(log10(n)) since we divide the input by 10 for  each iteration
 
 class Solution {
     public boolean isPalindrome(int x) {
