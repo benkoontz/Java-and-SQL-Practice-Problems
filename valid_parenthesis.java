@@ -1,4 +1,5 @@
-// Given a string that conains '(', ')', '{', '}', '[' and ']', determine if the input string // is valid.
+// Given a string that conains '(', ')', '{', '}', '[' and ']', determine if the input string  is valid. By valid, meaning there's a closed parenthesis for each open parenthesis
+// ({}) is an example of a true solution
 // The solution is to create a stack and then loop through the stack from beginning to end and 
 // pop off each valid entry
 
