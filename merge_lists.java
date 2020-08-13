@@ -1,5 +1,5 @@
-// Suppose there's two link lists. Return the two linked lists as one linked list                // and return the nodes in sorted order.
-
+// Suppose there's two link lists. Return the two linked lists as one linked list               
+// and return the nodes in sorted order.
 
 
 class Solution {
