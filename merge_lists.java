@@ -44,3 +44,4 @@ class Solution {
     // return the result    
     return head.next;
 }
+}
