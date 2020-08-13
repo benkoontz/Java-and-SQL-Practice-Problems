@@ -5,7 +5,7 @@
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
    
-   // create a head lst node
+   // create a head list node
    ListNode head = new ListNode(0);
     ListNode p = head;
  
