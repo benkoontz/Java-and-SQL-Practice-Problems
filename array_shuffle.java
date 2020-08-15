@@ -8,7 +8,7 @@
 class Solution {
     public int[] shuffle(int[] nums, int n) {
         
-     // create a new int arrary which will hold the same length as the input array,
+     // create a new int array which will hold the same length as the input array,
     // since it's only shuffling the values
     int [] output = new int[nums.length];
         
