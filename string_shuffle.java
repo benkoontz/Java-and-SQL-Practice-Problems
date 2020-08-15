@@ -14,7 +14,7 @@ class Solution {
         // loop through the indices
         for(int i = 0; i < indices.length; i++){
             
-            // set the indices equal the the values of where the characters are located in the input string
+            // set the indices equal to the values of where the characters are located in the input string
             result[indices[i]] = s.charAt(i);
         }
         
