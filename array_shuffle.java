@@ -1,4 +1,4 @@
-// given the input array consiting of the form [x1, x2...xn, y1, y2,...yn],
+// given the input array consisting of the form [x1, x2...xn, y1, y2,...yn],
 // return the array of the form [x1, y1, x2, y2,...,xn, yn]
 // example [2. 5. 1. 3. 4, 7], n = 3
 // result [2. 3. 5. 4. 1. 7]
