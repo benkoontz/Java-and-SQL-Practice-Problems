@@ -3,7 +3,7 @@
 
 
 class Solution {
-    public List<Boolean> kidsWithCandies(int[] numbers, int extraNumber) {
+    public List<Boolean> array_numbers(int[] numbers, int extraNumber) {
         
         // initalize a max element
         int max = numbers[0];
