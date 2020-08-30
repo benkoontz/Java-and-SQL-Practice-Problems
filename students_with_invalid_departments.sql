@@ -1,4 +1,4 @@
-Write a SQL query to find the student id and the name of all students who are
+/*Write a SQL query to find the student id and the name of all students who are
 enrolled in departments that no longer exist
 
 Table Students:
@@ -61,7 +61,7 @@ Result table:
 
 John, Daiana, Steve and Jasmine are enrolled in departments 14, 33, 74 and 77 respectively. department 14, 33, 74 and 77 doesn't exist in the Departments table.
 
-Solution:
+Solution: */
 
 select id, name
 from students
