@@ -1,5 +1,5 @@
-// Given the root node of a binary search tree, return the sum of vaalues of all nodes with 
-// the value between L and R
+// Given the root node of a binary search tree, return the sum of values of all nodes with 
+// values between L and R
 
 // Example 1:
 
