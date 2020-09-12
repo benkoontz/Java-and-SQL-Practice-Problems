@@ -23,7 +23,7 @@
  * }
  */
 
-// the left value of the binary tree is smaller than the right value
+// the left value of a binary tree is smaller than the right value
 
 // answer using recursion
 
