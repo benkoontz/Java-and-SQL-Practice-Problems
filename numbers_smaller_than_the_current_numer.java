@@ -1,4 +1,4 @@
-
+// given an array nums, return the number of numbers that are smaller than the current number
 
 // example
 
