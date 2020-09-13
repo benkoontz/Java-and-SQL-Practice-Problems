@@ -11,9 +11,11 @@
 class Solution {
     
     // create a hash table that holds the values for the mappings
+    // 
 private HashMap<Character, Character> mappings;
 
 // Initialize a hash map with mappings. This makes the code easier to read.
+    // A HashMap stores items in "key/value" pairs
     public Solution() {
     this.mappings = new HashMap<Character, Character>();
     this.mappings.put(')', '(');
