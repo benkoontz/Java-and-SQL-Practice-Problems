@@ -36,7 +36,7 @@ private HashMap<Character, Character> mappings;
                                              // 2. '[' isn't a key so puch it to the stack
                                              // 3. ']' is a key and the stack isn't empty so pop the top element '['
                                              // 4. the new top element '(' is not euqal to ']', so return faluse
-                                             // 5. ')' is a ky so pop the op element '('
+                                             // 5. ')' is a ky so pop the top element '('
             
 // get the top element off the stack. If the stack is empty set the stack to a dummy value
             char topElement = stack.empty() ? '#' : stack.pop();
