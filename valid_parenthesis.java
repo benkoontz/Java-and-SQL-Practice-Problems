@@ -27,12 +27,16 @@ private HashMap<Character, Character> mappings;
     // initialize a stack to be used for the alogirthm
     Stack<Character> stack = new Stack<Character>();
         
-    // loop through the input string and get each character
+    // loop through the input string and get each character, example ([])
     for(int i = 0; i < s.length(); i++) {
         char c = s.charAt(i);
         
         // check if the current character is a closing bracket
-        if(this.mappings.containsKey(c)) {
+        if(this.mappings.containsKey(c)) {   // 1. '(' isn't a key so push it to the stack
+                                             // 2. '[' isn't a key so puch it to the stack
+                                             // 3. ']' is a key and the stack isn't empty so pop the top element '['
+                                             // 4. the new top element '(' is not euqal to ']', so return faluse
+                                             // 5. ')' is a ky so pop the op element '('
             
 // get the top element off the stack. If the stack is empty set the stack to a dummy value
             char topElement = stack.empty() ? '#' : stack.pop();
@@ -46,7 +50,7 @@ private HashMap<Character, Character> mappings;
             stack.push(c);
         } 
       }
-    // if the stack still contains elements, then is is an invalid expression
+    // if the stack is emtpys, then it's a valid expression
     return stack.isEmpty();
     }
 }
