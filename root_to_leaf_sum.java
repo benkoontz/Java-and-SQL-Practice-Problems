@@ -55,8 +55,9 @@ class Solution {
             if(root != null) {
                 
                 // set the current number = to onr binary value higher and add it to the
-                // root.val value. The '|' is a bitwise or operator.
-                // example:   0010 << 1  →  0100
+                // root.val value. The '|' is a bitwise or operator and shit the value 
+                // one value to the left
+                // example:   0 << 1  →  00
                 // 0100 | 0011 -> 0111
                 currNumber = (currNumber << 1) | root.val;
                 
