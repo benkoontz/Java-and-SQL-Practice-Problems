@@ -17,7 +17,7 @@ class Solution {
         Map<String, String> map = new HashMap();
         
         // loop through the length of paths
-        for(int i = 0; i< paths.size(); i++) {
+        for(int i = 0; i < paths.size(); i++) {
             
             // get the first and 2nd elements in each subset array
             // London, New York
@@ -33,7 +33,7 @@ class Solution {
             // London, New York -> doesn't contain London -> return New York
             //  New York, Lima -> doesn't contain New York -> return Lima
             //  Lima, Sau Paulo -> doesn't contain Lima -> Return -> Sau Paulo
-            if (!map.containsKey(k)) return k; // Returns true if this map doesn't contain                                                    // a mapping for the specified key
+            if (!map.containsKey(k)) return k; // Returns true if this map doesn't contain       a mapping for the specified key
         }
         return "";
     }
