@@ -24,7 +24,7 @@ class Solution {
             // set slow equal to the next node
             slow = slow.next;
             
-            // set fast equal to the next next
+            // set fast equal to the next next node
             fast = fast.next.next;
         }
         
