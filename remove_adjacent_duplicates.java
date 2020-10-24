@@ -16,7 +16,7 @@ class Solution {
             // if the stack is not empty and the next character is equal the current value pop the value
             if (!stack.isEmpty() && stack.peek() == S.charAt(i)) 
                 stack.pop();
-            // else push the alue on the stuck
+            // else push the value on the stack
             else 
                 stack.push(S.charAt(i));
             
