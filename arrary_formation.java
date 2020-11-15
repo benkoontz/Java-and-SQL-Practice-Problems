@@ -25,22 +25,26 @@ class Solution {
     Map<Integer, int[]> map = new HashMap<>();
 
     // map out each sub array
+    // put the first value of each sub arrary
     for(int[] piece : pieces)
         map.put(piece[0], piece);
     
     int index = 0;
     
-    // loop through the array
+    // loop through the array arr and check if the first value in each sub array is equal to a
+    // arr value
     while(index < arr.length){
         if(!map.containsKey(arr[index]))
             return false;
         
-        // create an int array to hold each value of rr
+        // create an int array to hold each value of arr
         int[] p = map.get(arr[index]);
         
         // loop through the int array p
         for(int i = 0; i < p.length; i++){
-            // if the array value of arr is not equal to the array value of p return false
+            // if the array value of arr is not equal to the array value of p return false,
+            // you're checking sequentially if each value matches because you can't reorder the values in 
+            // each sub arrary
             if(arr[index++] != p[i])
                 return false;
         }
